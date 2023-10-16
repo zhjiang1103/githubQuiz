@@ -4,7 +4,7 @@ You have just joined your favorite company and have been tasked with printing ne
 
 ##1. Debug the broken code so that it's working
 
-![App Screenshot](<Screen Shot 2023-10-16 at 9.17.32 AM.png>)
+![App Screenshot](<screenshot1.png>)
 
 ##2. Correct the file architecture using command line
 ```bash
@@ -36,5 +36,5 @@ git mv client/server/ ./server
 ```
 ##5. Update README with
     - screenshot of the app's webpage
-    ![App Screenshot](<Screen Shot 2023-10-16 at 9.14.21 AM.png>)
+    ![App Screenshot](<screenshot2.png>)
    
