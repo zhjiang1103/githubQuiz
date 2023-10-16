@@ -9,9 +9,9 @@ You have just joined your favorite company and have been tasked with printing ne
 ##2. Correct the file architecture using command line
 ```bash
 git mv client/server/ ./server
-
+```
 ##3. node_modules are committed, remove them from repo on GitHub
-
+```bash
 # Add node_modules to .gitignore (dependencies section)
 echo '**/node_modules' >> .gitignore
 
@@ -28,9 +28,10 @@ echo '**/node_modules' >> .gitignore
 cd server
 git rm -r --cached node_modules
 git add .
-
+```
 
 ##4. Correct the server file’s directory by moving it to the appropriate directory
+```bash
 git mv client/server/ ./server
 ```
 ##5. Update README with
